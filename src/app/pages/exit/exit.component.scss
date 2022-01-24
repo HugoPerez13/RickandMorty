@@ -1,0 +1,58 @@
+@import "../../../styles.scss";
+ 
+h6{
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0px;
+    background-color: transparent;
+    font-size: 10px;
+    padding-bottom: 5px;
+
+}
+
+ .exit-container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  
+    h2 {
+      color: $primer-complementario;
+      text-transform: uppercase;
+      text-align: center;
+    }
+    &__card {
+      border: solid 2px $primer-complementario;
+      border-radius: 10px;
+      margin: 20px;
+      height: 200px;
+      background-color: $Color-principal;
+      width: 20%;
+  
+     
+      
+  
+      img {
+        width: 70%;
+        border-radius: 10px;
+        border: solid 2px $primer-complementario;
+        width: 50%;
+      }
+  
+      p {
+        padding: 8px;
+        margin: 8px;
+        color: $color-oscuro;
+      }
+  
+      li {
+        padding: 8px;
+        margin: 8px;
+        color: $color-oscuro;
+      }
+    }
+  }
+  

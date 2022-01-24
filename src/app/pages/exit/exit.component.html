@@ -1,0 +1,6 @@
+
+
+<div *ngIf="exits.length" class="exit-container">
+    <div *ngFor="let exit of exits" class="exit-container__card" style="background-image: url({{exit.image}}); background-size: cover; background-position: center" routerLink="{{exit.id}}">
+        <h6>{{exit.name}}</h6>
+    </div>

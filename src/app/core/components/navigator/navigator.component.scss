@@ -1,0 +1,32 @@
+@import "../../../../styles.scss";
+
+.navigator-container {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    background-color: $Color-principal;
+    height: 10vh;
+    width: 100vw;
+  
+    .navigator-list {
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+  
+      &__item {
+        padding: 10px;
+  
+        &--link {
+          color: $primer-complementario;
+          text-transform: uppercase;
+          font-weight: bold;
+  
+          &:hover{
+              color: $color-oscuro;
+          }
+        }
+      }
+    }
+  }
+  
